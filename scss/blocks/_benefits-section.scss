@@ -1,0 +1,117 @@
+.benefits-section {
+  z-index: 10;
+}
+
+.benefits__heading {
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 170%;
+  color: #056088;
+}
+
+.benefits__title {
+  width: 100%;
+  max-width: 348px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  padding: 0 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #434343;
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.benefits__item {
+  width: 100%;
+  max-width: 420px;
+  padding: 54px 57px 42px 57px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  img {
+    margin-bottom: 34px;
+  }
+}
+
+.benefits__item + .benefits__item {
+  margin-left: auto;
+}
+
+.benefits__item:nth-child(1) {
+  background-image: url("../../images/benefitsBgImg1.jpg");
+}
+
+.benefits__item:nth-child(2) {
+  background-image: url("../../images/benefitsBgImg2.jpg");
+}
+
+.benefits__item:nth-child(3) {
+  background-image: url("../../images/benefitsBgImg3.jpg");
+}
+
+.benefits__item-title {
+  margin-bottom: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 170%;
+  color: #ffffff;
+}
+
+.benefits__item-desc {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1410px) {
+  .benefits__item {
+    margin: 15px auto;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .benefits__item:last-child {
+    max-width: 100%;
+  }
+
+  .benefits__item {
+    max-width: 45%;
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .benefits__item {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .benefits-section .container {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,37 @@
+#email-contact {
+  .container {
+    padding: 55px 0;
+    background-image: url("../../images/email-contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .email-heading {
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .email-text {
+    width: 100%;
+    max-width: 517px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #ffffff;
+  }
+}

@@ -29,4 +29,44 @@
 .header__nav__link {
   text-decoration: none;
   color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+  .logo {
+    max-width: 80px;
+  }
+
+  .header__nav {
+    max-width: 550px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .header .container {
+    padding: 0 50px;
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .header__nav {
+    max-width: 470px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header__nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
+  }
 }
