@@ -1,4 +1,5 @@
 #email-contact {
+  margin-bottom: 100px;
   .container {
     padding: 55px 0;
     background-image: url("../../images/email-contact.jpg");
@@ -33,5 +34,39 @@
     line-height: 170%;
     text-align: center;
     color: #ffffff;
+  }
+
+  .email-form {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .email-input {
+    width: 100%;
+    padding: 18px 30px 17px 30px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: start;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .email-submit {
+    padding: 17px 40px 18px 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    color: #ffffff;
+    border: none;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09a7ca 96.62%);
   }
 }

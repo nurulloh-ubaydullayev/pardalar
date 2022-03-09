@@ -1,0 +1,101 @@
+#footer {
+  background-color: #023957;
+  .footer__top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 160px 74px 180px;
+  }
+
+  .footer__left {
+    width: 100%;
+    max-width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer__logo-link {
+    margin-bottom: 16px;
+  }
+
+  .footer__location {
+    margin-bottom: 32px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .footer__directions {
+    padding: 23px 22px 22px 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09a7ca 96.62%);
+  }
+
+  .footer__nav {
+    width: 100%;
+    max-width: 771px;
+  }
+
+  .footer__categories-list {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+    ul {
+      list-style-type: none;
+    }
+  }
+
+  .footer__categories-item {
+  }
+  .footer__category-heading {
+    margin-bottom: 32px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 170%;
+    color: #ffffff;
+  }
+  .footer__inner-list {
+  }
+  .footer__inner-item + .footer__inner-item {
+    margin-top: 16px;
+  }
+  .footer__inner-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .footer__bottom {
+    padding: 32px 0 30px 0;
+    background-color: #fff;
+  }
+  .footer__bottom-copyright-text {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: #434343;
+  }
+}

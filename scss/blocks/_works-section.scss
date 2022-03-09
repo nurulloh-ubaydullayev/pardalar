@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   transform: translateY(-80px);
-  z-index: -10;
+  // z-index: -10;
 
   .works .container {
     padding-top: 173px;
@@ -91,7 +91,6 @@
   .more-link-line {
     display: inline-block;
     width: 60%;
-    // background-color: #fff;
     background: linear-gradient(
       180deg,
       rgba(64, 161, 202, 0.9) 0%,

@@ -29,11 +29,13 @@
 }
 
 .benefits__list {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
   list-style: none;
+  z-index: 10;
 }
 
 .benefits__item {
