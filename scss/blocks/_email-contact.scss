@@ -1,7 +1,7 @@
 #email-contact {
   margin-bottom: 100px;
   .container {
-    padding: 55px 0;
+    padding: 55px 30px;
     background-image: url("../../images/email-contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,5 +68,24 @@
     color: #ffffff;
     border: none;
     background: linear-gradient(104.58deg, #056088 10.57%, #09a7ca 96.62%);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .email-heading {
+      font-size: 32px;
+      line-height: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    .email-form {
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .email-submit {
+      margin-top: 20px;
+      margin-left: auto;
+    }
   }
 }

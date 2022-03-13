@@ -110,6 +110,8 @@
     text-decoration: none;
   }
 
+  // Comments section =========================================================
+
   .works_comments {
     display: flex;
     justify-content: center;
@@ -197,6 +199,8 @@
     color: #ffffff;
   }
 
+  // Works section adaptiv -----------
+
   @media only screen and (min-width: 1440px) {
   }
 
@@ -243,9 +247,42 @@
     }
 
     .works .container {
-      padding: 0 40px;
+      // padding: 0 40px;
       padding-top: 173px;
       // padding-bottom: 200px;
+    }
+  }
+
+  // Comments section adaptiv ----------
+
+  @media only screen and (max-width: 760px) {
+    .works__column {
+      display: none;
+    }
+
+    .works__client-avatar {
+      position: static;
+      top: 0;
+      left: 0;
+    }
+
+    .works__client-box {
+      position: static;
+    }
+  }
+
+  @media only screen and (max-width: 630px) {
+    .container {
+      padding: 0 20px;
+    }
+
+    .works_comments {
+      flex-direction: column;
+    }
+
+    .works__content {
+      width: 100%;
+      max-width: 100%;
     }
   }
 }

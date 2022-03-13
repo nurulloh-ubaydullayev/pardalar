@@ -53,4 +53,44 @@
     line-height: 180%;
     color: #ffffff;
   }
+
+  @media only screen and (max-width: 1300px) {
+    .partners__top {
+      flex-direction: column;
+    }
+
+    .partners__heading {
+      margin-bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .partners__list {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        padding: 5px 20px;
+      }
+    }
+
+    .timelaps__video-description {
+      max-width: 70%;
+      top: 0;
+      bottom: auto;
+      transform: translateY(-80px);
+      padding: 22px;
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .container {
+      padding: 0 20px;
+    }
+
+    .timelaps__video-description {
+      display: none;
+    }
+  }
 }
