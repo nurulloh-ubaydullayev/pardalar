@@ -37,12 +37,14 @@
   }
 
   .email-form {
+    position: relative;
     width: 100%;
     max-width: 640px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    z-index: 1;
   }
 
   .email-input {
@@ -56,6 +58,37 @@
     line-height: 170%;
     text-align: start;
     color: rgba(0, 0, 0, 0.4);
+  }
+
+  // .email-input:not(:focus):not(:placeholder-shown):invalid
+  //   + .form-control-error {
+  //   display: block;
+  // }
+
+  // .email-input:not(:focus):not(:placeholder-shown):valid
+  //   ~ .form-control-success {
+  //   display: block;
+  // }
+
+  .form-control-text {
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+    z-index: 1;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .form-control-error {
+    display: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .form-control-success {
+    display: none;
+    color: lightgreen;
   }
 
   .email-submit {

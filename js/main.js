@@ -1,4 +1,8 @@
 const animItems = document.querySelectorAll("._anim-items");
+const elPhoneController = document.querySelector(".email-input");
+const elPhoneForm = document.querySelector(".email-form");
+const elError = document.querySelector(".form-control-error");
+const elSuccess = document.querySelector(".form-control-success");
 
 if (animItems.length > 0) {
   window.addEventListener("scroll", animOnScroll);
@@ -57,3 +61,24 @@ function reveal() {
     }
   }
 }
+
+elPhoneForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  let inputValue = elPhoneController.value;
+
+  let validValue = inputValue.match(
+    /^[+]*[0-9]{0,4}[\s]?[0-9]{1,3}[-\s\./0-9]*$/g
+  );
+  console.log(validValue?.length > 0);
+
+  if (validValue?.length > 0) {
+    // Fetch value
+    elSuccess.style.display = "block";
+    elError.style.display = "none";
+    elPhoneForm.reset();
+  } else {
+    elSuccess.style.display = "none";
+    elError.style.display = "block";
+  }
+});
