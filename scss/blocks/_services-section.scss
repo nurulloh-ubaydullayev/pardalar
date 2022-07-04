@@ -45,7 +45,7 @@
 }
 
 .services__lit-item:hover {
-  background-image: url("../../images/bgimg.jpg");
+  background-image: url("../../images/hover-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -54,15 +54,14 @@
 .services__lit-item:hover .services__item-title,
 .services__lit-item:hover .services__item-description {
   transition: 0.3s;
-
   color: #ffffff;
 }
 
-.services__lit-item:hover .services__item-img path {
-  transition: 0.3s;
-  fill: #fff;
+.services__lit-item:hover {
+  .services__item-img {
+    opacity: 0;
+  }
 }
-
 .services__item-img {
   margin-bottom: 23px;
 }

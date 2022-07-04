@@ -21,35 +21,27 @@
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Home</a>
+              <a class="header__nav__link" href="#intro">Asosiy</a>
             </li>
 
             <li class="header__nav__item">
-              <a class="header__nav__link" href="#">About</a>
+              <a class="header__nav__link" href="#about">Biz haqimizda</a>
             </li>
 
             <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Services</a>
+              <a class="header__nav__link" href="#services">Xizmatlar</a>
             </li>
 
             <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Gallery</a>
+              <a class="header__nav__link" href="#benefits">Afzalliklar</a>
             </li>
 
             <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Contact</a>
+              <a class="header__nav__link" href="#works">Gallereya</a>
             </li>
 
             <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Story</a>
-            </li>
-
-            <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Careers</a>
-            </li>
-
-            <li class="header__nav__item">
-              <a class="header__nav__link" href="#">News</a>
+              <a class="header__nav__link" href="#contacts">Aloqa</a>
             </li>
           </ul>
         </nav>
@@ -65,12 +57,12 @@
     </header>
 
     <main>
-      <section class="intro-section">
+      <section class="intro-section" id="intro">
         <div class="intro-wrapper">
           <div class="intro__bottom-line"></div>
           <img
             class="intro__main-img"
-            src="./images/intro-img.png"
+            src="./images/intro-img.jpg"
             alt="Intro image"
             width="982"
             height="743"
@@ -80,16 +72,18 @@
             <div class="container">
               <div class="intro__text__left-block">
                 <h1 class="intro__heading _anim-items _anim-no-hide">
-                  We build your dream house well and professionally
+                  Biz sizning orzuingizdagi pardalarni professional tarzda
+                  tayyorlaymiz
                 </h1>
 
                 <p class="intro__description _anim-items _anim-no-hide">
-                  Our team can build a house according to your wishes. Any design and
-                  concept, we will help make it happen
+                  Bizning jamoamiz sizning xohishingizga ko'ra pardalar tikishi
+                  mumkin. Har qanday dizayn va kontseptsiya, biz buni amalga
+                  oshirishga yordam beramiz
                 </p>
               </div>
 
-              <a class="intro__contact-link" href="#">Contact us</a>
+              <a class="intro__contact-link" href="#">Murojaat uchun</a>
             </div>
           </div>
         </div>
@@ -97,14 +91,14 @@
 
       <!-- ==================== About company section =========================== -->
 
-      <section class="about-section">
+      <section class="about-section" id="about">
         <div class="about">
           <div class="container">
             <div class="about__left-block">
               <ul class="about__left-images-list">
                 <li class="about__images-list-item">
                   <img
-                    src="./images/about__img1.jpg"
+                    src="./images/3.jpg"
                     alt="Image"
                     width="310"
                     height="241"
@@ -112,7 +106,7 @@
                 </li>
                 <li class="about__images-list-item">
                   <img
-                    src="./images/about__img2.jpg"
+                    src="./images/1.jpg"
                     alt="Image"
                     width="310"
                     height="158"
@@ -133,7 +127,7 @@
               <ul class="about__right-images-list">
                 <li class="about__images-list-item">
                   <img
-                    src="./images/about__img3.jpg"
+                    src="./images/2.jpg"
                     alt="Image"
                     width="310"
                     height="158"
@@ -152,25 +146,26 @@
 
             <div class="about__right-block">
               <div class="about__right__description">
-                <h2 class="about__right-heading">Our company</h2>
+                <h2 class="about__right-heading">Bizning kompaniya</h2>
                 <p class="about__right-text">
-                  Debuilds is a team of architects, interior design, and contractors who
-                  help our clients not only to build their dream building, but also to
-                  feel comfortable after the building is used.
+                  Debuilds is a team of architects, interior design, and
+                  contractors who help our clients not only to build their dream
+                  building, but also to feel comfortable after the building is
+                  used.
                 </p>
               </div>
 
               <div class="about__right-stats">
-                <p>We already handled</p>
+                <p>Biz allaqachon bitirdik</p>
 
                 <ul class="about__stats-list">
-                  <li class="about__stats-item">50+ Clients</li>
-                  <li class="about__stats-item">30+ House</li>
-                  <li class="about__stats-item">20+ Building</li>
+                  <li class="about__stats-item">100+ Mijozlar</li>
+                  <li class="about__stats-item">120+ Uylar</li>
+                  <li class="about__stats-item">20+ Korxona</li>
                 </ul>
 
                 <div>
-                  <a class="about__right__more-link" href="#">See more</a>
+                  <a class="about__right__more-link" href="#">Ko'proq</a>
                 </div>
               </div>
             </div>
@@ -180,15 +175,16 @@
 
       <!-- =====================Service Types Section===================== -->
 
-      <section class="services-section">
+      <section class="services-section reveal" id="services">
         <div class="services">
           <div class="container">
-            <h2 class="services__heading">Our services</h2>
+            <h2 class="services__heading">Biznig xizmatlar</h2>
             <p class="services__title">
-              Our services include building new buildings and renovating old buildings
+              Bizning xizmatlarimizga yangi pardalar tayyorlash va eski
+              pardalarni ta'mirlash kiradi
             </p>
 
-            <ul class="services__list">
+            <ul class="services__list reveal">
               <li class="services__lit-item">
                 <svg
                   class="services__item-img"
@@ -204,72 +200,55 @@
                   />
                 </svg>
 
-                <p class="services__item-title">Design building/house</p>
+                <p class="services__item-title">Dizayn loyihalash</p>
                 <p class="services__item-description">
-                  We have an architect for design new buildings
+                  Yangi pardalarni loyihalash uchun dizaynerlarimiz bor
                 </p>
               </li>
 
               <li class="services__lit-item">
-                <svg
+                <img
                   class="services__item-img"
-                  width="52"
-                  height="38"
-                  viewBox="0 0 52 38"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M27.1667 5.33335C27.1667 2.74335 29.2434 0.666687 31.8334 0.666687H40C42.5667 0.666687 44.6667 2.76669 44.6667 5.33335V10.3734C41.96 11.33 40 13.8967 40 16.93V21.6667H27.1667V5.33335ZM12 16.9067V21.6667H24.8334V5.33335C24.8334 2.74335 22.7567 0.666687 20.1667 0.666687H12C9.43337 0.666687 7.33337 2.76669 7.33337 5.33335V10.35C10.04 11.3067 12 13.8967 12 16.9067ZM46.2067 12.4034C43.92 12.7767 42.3334 14.9467 42.3334 17.28V24H9.66671V17C9.66671 15.7623 9.17504 14.5754 8.29987 13.7002C7.4247 12.825 6.23772 12.3334 5.00004 12.3334C3.76236 12.3334 2.57538 12.825 1.70021 13.7002C0.825039 14.5754 0.333374 15.7623 0.333374 17V28.6667C0.333374 31.2334 2.43337 33.3334 5.00004 33.3334V38H9.66671V33.3334H42.3334V38H47V33.3334C49.5667 33.3334 51.6667 31.2334 51.6667 28.6667V17C51.6667 14.1767 49.1234 11.9134 46.2067 12.4034Z"
-                    fill="#434343"
-                  />
-                </svg>
+                  src="./images/curtains.png"
+                  alt="Pardalar"
+                  width="56"
+                  height="56"
+                />
 
-                <p class="services__item-title">Interior Design</p>
+                <p class="services__item-title">Pardalar tikish</p>
                 <p class="services__item-description">
-                  We have an interior designer for design your perfect inside house
+                  Sizning mukammal pardalaringizni tikish uchun bizda
+                  tikuvchilar bor
                 </p>
               </li>
 
               <li class="services__lit-item">
-                <svg
+                <img
                   class="services__item-img"
-                  width="45"
-                  height="48"
-                  viewBox="0 0 45 48"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M40.3123 0.666687H17.0233C14.431 0.666687 12.3333 2.76435 12.3333 5.35669V18.5097L1.36199 29.341C1.03326 29.6661 0.808525 30.0816 0.716312 30.5347C0.6241 30.9877 0.668565 31.458 0.844064 31.8857C1.01956 32.3135 1.31818 32.6794 1.70203 32.9372C2.08587 33.1949 2.53764 33.3328 2.99999 33.3334V45C2.99999 45.6189 3.24582 46.2124 3.68341 46.6499C4.12099 47.0875 4.71448 47.3334 5.33332 47.3334H42.6667C43.2855 47.3334 43.879 47.0875 44.3166 46.6499C44.7542 46.2124 45 45.6189 45 45V5.35435C45 2.76435 42.9046 0.666687 40.3123 0.666687ZM21.4847 31.259V42.6667H7.66665V29.6747L14.6363 22.7937L21.4847 29.8007V31.259ZM26.3333 17H21.6667V12.3334H26.3333V17ZM35.6666 35.6667H31V31H35.6666V35.6667ZM35.6666 26.3334H31V21.6667H35.6666V26.3334ZM35.6666 17H31V12.3334H35.6666V17Z"
-                    fill="#434343"
-                  />
-                </svg>
+                  src="./images/blinds.png"
+                  alt="Pardalar"
+                  width="56"
+                  height="56"
+                />
 
-                <p class="services__item-title">Build from scratch</p>
+                <p class="services__item-title">Jalyuzi ilish</p>
                 <p class="services__item-description">
-                  We have an contractor for build new building from scratch
+                  Biz turli xil modeldagi jalyuzilarni taklif qilamiz
                 </p>
               </li>
 
               <li class="services__lit-item">
-                <svg
+                <img
                   class="services__item-img"
-                  width="48"
-                  height="44"
-                  viewBox="0 0 48 44"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.1604 29.4013L33.1094 24.4523L47.1 38.443L42.151 43.392L28.1604 29.4013ZM36.8334 17.3333C41.3367 17.3333 45 13.67 45 9.16664C45 7.8133 44.6267 6.5533 44.0434 5.4333L37.7434 11.7333L34.2667 8.25664L40.5667 1.95664C39.4467 1.3733 38.1867 0.999971 36.8334 0.999971C32.33 0.999971 28.6667 4.6633 28.6667 9.16664C28.6667 10.1233 28.8534 11.0333 29.1567 11.8733L24.84 16.19L20.6867 12.0366L22.3434 10.38L19.0534 7.08997L24 2.1433C22.6875 0.832433 20.9084 0.0961304 19.0534 0.0961304C17.1984 0.0961304 15.4192 0.832433 14.1067 2.1433L5.84669 10.4033L9.13669 13.6933H2.55669L0.900024 15.35L9.16002 23.61L10.8167 21.9533V15.35L14.1067 18.64L15.7634 16.9833L19.9167 21.1366L2.62669 38.4266L7.57336 43.3733L34.1267 16.8433C34.9667 17.1466 35.8767 17.3333 36.8334 17.3333Z"
-                    fill="#434343"
-                  />
-                </svg>
+                  src="./images/washing-machine.png"
+                  alt="Pardalar"
+                  width="56"
+                  height="56"
+                />
 
-                <p class="services__item-title">Renovation</p>
+                <p class="services__item-title">Yuvish xizmati</p>
                 <p class="services__item-description">
-                  We can also renovate or rebuilds new buildings/house
+                  Shuningdek, biz avvalgi pardalarni yuvib beramiz
                 </p>
               </li>
             </ul>
@@ -279,12 +258,13 @@
 
       <!-- TODO ==================Benefits section=========================== -->
 
-      <section class="benefits-section">
+      <section class="benefits-section reveal" id="benefits">
         <div class="benefits">
           <div class="container">
-            <h2 class="benefits__heading">Our benefits</h2>
+            <h2 class="benefits__heading">Bizning afzalliklarimiz</h2>
             <p class="benefits__title">
-              Here our benefits if you collaboration with our team
+              Agar siz bizning jamoamiz bilan hamkorlik qilsangiz, bizning
+              afzalliklarimiz
             </p>
 
             <ul class="benefits__list">
@@ -297,10 +277,10 @@
                   height="51"
                 />
 
-                <p class="benefits__item-title">Flexible time</p>
+                <p class="benefits__item-title">Moslashuvchan vaqt</p>
 
                 <p class="benefits__item-desc">
-                  We work wherever you ready to builds. Work fast and profesional
+                  Sizga mos vaqtda ishlaymiz. Muhimi tez va sifatli
                 </p>
               </li>
 
@@ -313,11 +293,11 @@
                   height="51"
                 />
 
-                <p class="benefits__item-title">Customizable design</p>
+                <p class="benefits__item-title">Istagingizdagi dizayn</p>
 
                 <p class="benefits__item-desc">
-                  We can design your buildings, but we open if you want to customize your
-                  design or if you have architect
+                  Biz sizni uyingizga chiroy berishga tayyormiz, lekin agar
+                  sizda tayyor dizayn bo'lsa siz uchun ochiqmiz
                 </p>
               </li>
 
@@ -330,11 +310,11 @@
                   height="51"
                 />
 
-                <p class="benefits__item-title">Negotiable price</p>
+                <p class="benefits__item-title">Kelishilgan narx</p>
 
                 <p class="benefits__item-desc">
-                  Yes, we’re open to negotiate the price with you, and we will give the
-                  best price for our lovely clients
+                  Ha, biz siz bilan narxni muzokara qilishga tayyormiz va biz
+                  sevimli mijozlarimiz uchun eng yaxshi narxni beramiz
                 </p>
               </li>
             </ul>
@@ -344,17 +324,16 @@
 
       <!-- TODO ======================Works section========================= -->
 
-      <section class="works-section">
+      <section class="works-section" id="works">
         <div class="works">
           <div class="container">
-            <div class="works__heading">Our works</div>
+            <div class="works__heading">Bizning ishlarimiz</div>
 
             <div class="works__title">
-              Here our some of the best the result when we build some buildings, houses,
-              and also interior designs
+              Bu yerda biz erishgan eng yaxshi natijalarimizdan lavhalar
             </div>
 
-            <div class="collection">
+            <div class="collection reveal">
               <div class="collection__img">
                 <div class="grid-item">
                   <div class="img-item">
@@ -405,7 +384,7 @@
 
               <div class="collection__img w-2">
                 <div class="grid-item">
-                  <div class="img-item">
+                  <div class="img-item img-item--top">
                     <img class="image" src="./images/work5.jpg" alt="" />
                   </div>
                 </div>
@@ -422,7 +401,7 @@
               <div class="collection__img w-2">
                 <div class="grid-item">
                   <div class="img-item">
-                    <img class="image" src="./images/work8.jpg" alt="" />
+                    <img class="image" src="./images/work7.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -430,16 +409,16 @@
 
             <div class="more-link-wrapper">
               <span class="more-link-line"></span>
-              <a class="more-link" href="/">See more</a>
+              <a class="more-link" href="/">Ko'proq</a>
             </div>
 
             <article class="works_comments">
               <div class="works__content">
-                <h3 class="works__content-title">What our clients say?</h3>
+                <h3 class="works__content-title">Mijozlarimizning fikri?</h3>
                 <p class="works__content-text">
-                  See what our clients say about their new home
+                  Mijozlarimiz yangi pardalari haqida fikrlari
                 </p>
-                <a class="more-link" href="/">See more</a>
+                <a class="more-link" href="/">Ko'proq</a>
               </div>
 
               <span class="works__column"> </span>
@@ -454,9 +433,10 @@
                     height="102"
                   />
                   <p class="works__client-opinion">
-                    I really happy to see the result my new home. It’s really good house
-                    and good price too. And they work so fast becasue they have the best
-                    team. Once again, thankyou. I really appreciate it.
+                    Yangi uyimning natijasini ko'rganimdan juda xursandman. Bu,
+                    albatta, yaxshi parda va yaxshi narx. Va ular juda tez
+                    ishlaydi, chunki ularda eng yaxshi jamoa bor. Yana bir bor
+                    rahmat. Men buni juda qadrlayman.
                   </p>
 
                   <p class="works__client-name">- Mr. Roberto</p>
@@ -467,66 +447,48 @@
         </div>
       </section>
 
-      <!-- TODO ========================Partners section================================== -->
-
-      <section id="partners">
-        <div class="container">
-          <div class="partners__top">
-            <h3 class="partners__heading">Our Partners</h3>
-
-            <ul class="partners__list">
-              <li>
-                <img
-                  src="./images/J.construct.png"
-                  alt="J.construct"
-                  width="213"
-                  height="28"
-                />
-              </li>
-
-              <li>
-                <img src="./images/Arch.png" alt="Arch" width="89" height="30" />
-              </li>
-
-              <li>
-                <img src="./images/Whix.co.png" alt="Whix.co" width="127" height="28" />
-              </li>
-
-              <li>
-                <img src="./images/DZIKRA.png" alt="DZIKRA" width="123" height="24" />
-              </li>
-            </ul>
-          </div>
-
-          <div class="timelaps__video">
-            <img
-              class="timelaps__video-img"
-              src="./images/timelaps.jpg"
-              alt="Timelaps"
-              width="1080"
-              height="512"
-            />
-
-            <p class="timelaps__video-description">
-              This is the timelapse video that shows how our teams work
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section id="email-contact">
         <div class="container">
-          <h2 class="email-heading">Want to get our offer updates and news?</h2>
+          <h2 class="email-heading">
+            Bizdagi takliflar va yangiliklarni olishni xohlaysizmi?
+          </h2>
 
           <p class="email-text">
-            Submit your e-mail and we will give you update about information and discount.
-            Every single week. (not spamming)
+            Telefon raqamingizni yuboring va biz sizga ma'lumot va chegirmalar
+            haqida ma'lumot beramiz.
           </p>
 
           <form class="email-form">
-            <input class="email-input" type="text" placeholder="Enter your e-mail here" />
-            <button class="email-submit">Submit</button>
+            <input
+              class="email-input"
+              type="text"
+              placeholder="Tel: +998 (99) 006-60-11"
+            />
+            <button class="email-submit">Yuborish</button>
           </form>
+        </div>
+      </section>
+
+      <!-- TODO ========================Contacts section================================== -->
+
+      <section id="contacts" itemid="contacts">
+        <div class="container reveal">
+          <h2 class="contacts__heading">
+            Yoki elektron pochta yoki mobil qo'ng'iroq yoki Telegram xabarlari
+            orqali biz bilan bog'laning
+          </h2>
+
+          <ul class="contacts__list">
+            <li class="contacts__list-item">
+              <a class="contacts__item-link" href="#">E-mail</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="contacts__item-link" href="#">Telegram</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="contacts__item-link" href="#">Xabarlar</a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
@@ -623,7 +585,9 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <h2 class="footer__bottom-copyright-text">2021 - Copyright ZHB Studio</h2>
+        <h2 class="footer__bottom-copyright-text">
+          2021 - Copyright ZHB Studio
+        </h2>
       </div>
     </footer>
 
