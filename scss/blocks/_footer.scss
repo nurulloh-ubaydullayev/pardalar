@@ -129,4 +129,12 @@
       }
     }
   }
+
+  @media only screen and (max-width: 420px) {
+    .footer__top {
+      .container {
+        padding: 60px 40px 74px 40px;
+      }
+    }
+  }
 }

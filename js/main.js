@@ -3,6 +3,11 @@ const elPhoneController = document.querySelector(".email-input");
 const elPhoneForm = document.querySelector(".email-form");
 const elError = document.querySelector(".form-control-error");
 const elSuccess = document.querySelector(".form-control-success");
+const elOpenNavigationToggler = document.querySelector(".menu-icon");
+const elOpenNavigationToggler_Mobile = document.querySelector(
+  ".header__nav--mobile-toggler"
+);
+const elHeader = document.querySelector(".header__nav");
 
 if (animItems.length > 0) {
   window.addEventListener("scroll", animOnScroll);
@@ -81,4 +86,12 @@ elPhoneForm.addEventListener("submit", (e) => {
     elSuccess.style.display = "none";
     elError.style.display = "block";
   }
+});
+
+elOpenNavigationToggler.addEventListener("click", (e) => {
+  elHeader.dataset.visibility = true;
+});
+
+elOpenNavigationToggler_Mobile.addEventListener("click", (e) => {
+  elHeader.dataset.visibility = false;
 });
